@@ -19,7 +19,7 @@ object casaDePepeYJulian {
 	//probar
 	method esDerrochona(){
 		var suma = 0;
-		cosas.forEach({cosa => suma+=cosas.precio()});
+		cosas.forEach({cosa => suma+=cosa.precio()});
 		return suma>90000;
 	}
 	//probar
